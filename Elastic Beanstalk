@@ -1,0 +1,33 @@
+# AWS Elastic Beanstalk - PHP Application Deployment
+
+## 📘 Problem Statement
+
+You work for XYZ Corporation. Your corporation wants to launch a new web-based application and they do not want their servers to be running all the time. It should also be managed by AWS. Implement suitable solutions.
+
+---
+
+## ✅ Tasks Performed
+
+1. Created an Elastic Beanstalk environment using PHP as the runtime.
+2. Uploaded a simple PHP file to the environment to simulate a web application deployment.
+
+---
+
+## 🛠️ Steps Followed
+
+1. **Created a ZIP file** of a basic `index.php` application.
+2. **Navigated to Elastic Beanstalk** service from AWS Console.
+3. Launched a new environment:
+   - Platform: PHP
+   - Environment Type: Web Server Environment
+4. Uploaded the PHP ZIP package.
+5. Deployed the application and verified the running instance via the environment URL.
+
+---
+
+## 📂 Sample PHP Code
+
+```php
+<?php
+  echo "Hello from AWS Elastic Beanstalk!";
+?>
